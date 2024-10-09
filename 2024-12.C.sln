@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prefix", "Prefix\Prefix.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Körhasáb", "Körhasáb\Körhasáb.csproj", "{59ACAFB2-A160-49C0-A83B-D996CBCB5273}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Téglalap_OOP", "Téglalap_OOP\Téglalap_OOP.csproj", "{07C5E089-A85E-4BDB-8090-B66804258619}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{59ACAFB2-A160-49C0-A83B-D996CBCB5273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59ACAFB2-A160-49C0-A83B-D996CBCB5273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59ACAFB2-A160-49C0-A83B-D996CBCB5273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C5E089-A85E-4BDB-8090-B66804258619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C5E089-A85E-4BDB-8090-B66804258619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C5E089-A85E-4BDB-8090-B66804258619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C5E089-A85E-4BDB-8090-B66804258619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
