@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "doga10.09", "doga10.09\doga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_06", "11_06\11_06.csproj", "{20CBE11C-8B8A-4888-9A26-AF7D27E3EF11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{4FD2AE1C-89AF-4AEC-A765-5D4F9D5B3376}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{20CBE11C-8B8A-4888-9A26-AF7D27E3EF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20CBE11C-8B8A-4888-9A26-AF7D27E3EF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20CBE11C-8B8A-4888-9A26-AF7D27E3EF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD2AE1C-89AF-4AEC-A765-5D4F9D5B3376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD2AE1C-89AF-4AEC-A765-5D4F9D5B3376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD2AE1C-89AF-4AEC-A765-5D4F9D5B3376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD2AE1C-89AF-4AEC-A765-5D4F9D5B3376}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
