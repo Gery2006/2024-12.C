@@ -15,7 +15,7 @@ namespace Körhasáb
             kerulet,
             terulet;
 
-        // Konstruktorok
+        // Konstruktorok szerepe: példányosítás. Több is lehet lenyomat alapján azonosítja be. 
 
         public kor(){}
 

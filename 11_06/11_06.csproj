@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{59ACAFB2-A160-49C0-A83B-D996CBCB5273}</ProjectGuid>
+    <ProjectGuid>{20CBE11C-8B8A-4888-9A26-AF7D27E3EF11}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Körhasáb</RootNamespace>
-    <AssemblyName>Körhasáb</AssemblyName>
+    <RootNamespace>_11_06</RootNamespace>
+    <AssemblyName>11_06</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="kor.cs" />
-    <Compile Include="kor2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Téglalap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
