@@ -75,7 +75,7 @@ namespace HaromszogTipusaOOP
                 Console.WriteLine($"Hiba történt: {ex.Message}");
             }
 
-            
+            a
             Console.WriteLine("Nyomjon meg egy billentyűt a kilépéshez...");
             Console.ReadLine();
         }
