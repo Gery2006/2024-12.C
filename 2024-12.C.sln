@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaromszogTipusaOOPP", "Haro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.27", "11.27\11.27.csproj", "{1C0690A0-5D1D-4372-A8ED-832861343DAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_27", "11_27\11_27.csproj", "{7304A8FD-C647-4AEB-8BF2-0127F64AA674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.04", "12.04\12.04.csproj", "{152D49D4-40A0-415B-A787-F8D231275B24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{1C0690A0-5D1D-4372-A8ED-832861343DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C0690A0-5D1D-4372-A8ED-832861343DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C0690A0-5D1D-4372-A8ED-832861343DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7304A8FD-C647-4AEB-8BF2-0127F64AA674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7304A8FD-C647-4AEB-8BF2-0127F64AA674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7304A8FD-C647-4AEB-8BF2-0127F64AA674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7304A8FD-C647-4AEB-8BF2-0127F64AA674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152D49D4-40A0-415B-A787-F8D231275B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152D49D4-40A0-415B-A787-F8D231275B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152D49D4-40A0-415B-A787-F8D231275B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152D49D4-40A0-415B-A787-F8D231275B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
