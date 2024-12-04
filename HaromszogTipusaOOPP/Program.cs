@@ -1,13 +1,9 @@
 ﻿using System;
 
 namespace HaromszogTipusaOOP
-
 {
-
     class HTipus
-
     {
-
         private int a, b, c;
 
         public HTipus(int a, int b, int c)
@@ -16,10 +12,12 @@ namespace HaromszogTipusaOOP
             this.b = b;
             this.c = c;
         }
+
         public bool ErvenyesHaromszog()
         {
             return (a + b > c) && (a + c > b) && (b + c > a);
         }
+
         public bool DerekszoguHaromszog()
         {
             if (!ErvenyesHaromszog()) return false;
@@ -33,11 +31,13 @@ namespace HaromszogTipusaOOP
             if (!ErvenyesHaromszog()) return false;
             return (a == b) || (a == c) || (b == c);
         }
+
         public bool EgyenloOldaluHaromszog()
         {
             if (!ErvenyesHaromszog()) return false;
             return (a == b) && (b == c);
         }
+
         public double Terulet()
         {
             if (!ErvenyesHaromszog()) throw new InvalidOperationException("Nem érvényes háromszög.");
@@ -49,22 +49,35 @@ namespace HaromszogTipusaOOP
     class Program
     {
         static void Main(string[] args)
-
         {
-            HTipus haromszog1 = new HTipus(3, 4, 5);
-            Console.WriteLine($"Érvényes háromszög: {haromszog1.ErvenyesHaromszog()}");
-            Console.WriteLine($"Derékszögű háromszög: {haromszog1.DerekszoguHaromszog()}");
-            Console.WriteLine($"Egyenlő szárú háromszög: {haromszog1.EgyenloSzaruHaromszog()}");
-            Console.WriteLine($"Egyenlő oldalú háromszög: {haromszog1.EgyenloOldaluHaromszog()}");
-            Console.WriteLine($"Terület: {haromszog1.Terulet()}");
-            HTipus haromszog2 = new HTipus(5, 5, 5);
-            Console.WriteLine($"Érvényes háromszög: {haromszog2.ErvenyesHaromszog()}");
-            Console.WriteLine($"Derékszögű háromszög: {haromszog2.DerekszoguHaromszog()}");
-            Console.WriteLine($"Egyenlő szárú háromszög: {haromszog2.EgyenloSzaruHaromszog()}");
-            Console.WriteLine($"Egyenlő oldalú háromszög: {haromszog2.EgyenloOldaluHaromszog()}");
-            Console.WriteLine($"Terület: {haromszog2.Terulet()}");
+            try
+            {
+                Console.WriteLine("Adja meg az első oldalt:");
+                int a = int.Parse(Console.ReadLine());
+                Console.WriteLine("Adja meg a második oldalt:");
+                int b = int.Parse(Console.ReadLine());
+                Console.WriteLine("Adja meg a harmadik oldalt:");
+                int c = int.Parse(Console.ReadLine());
+
+                HTipus haromszog = new HTipus(a, b, c);
+                Console.WriteLine($"Érvényes háromszög: {haromszog.ErvenyesHaromszog()}");
+                Console.WriteLine($"Derékszögű háromszög: {haromszog.DerekszoguHaromszog()}");
+                Console.WriteLine($"Egyenlő szárú háromszög: {haromszog.EgyenloSzaruHaromszog()}");
+                Console.WriteLine($"Egyenlő oldalú háromszög: {haromszog.EgyenloOldaluHaromszog()}");
+                Console.WriteLine($"Terület: {haromszog.Terulet()}");
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Hibás adatbevitel! Kérjük, számokat adjon meg.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Hiba történt: {ex.Message}");
+            }
+
+            
+            Console.WriteLine("Nyomjon meg egy billentyűt a kilépéshez...");
             Console.ReadLine();
         }
     }
 }
-
