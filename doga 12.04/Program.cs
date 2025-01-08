@@ -28,8 +28,6 @@ namespace doga_12._04
             Console.WriteLine("Kérem a halál évszámát: ");
 
             int szam2;
-            bool szam2 = int.TryParse(ev, out szam);
-
             if (szam2)
             {
                 Console.WriteLine($"{ev} egy szám.");
@@ -42,9 +40,14 @@ namespace doga_12._04
 
             Console.WriteLine("Add meg a nevet: ");
             string nev = Convert.ToString(Console.ReadLine());
-
-            int idos = halal - ev;
-            Console.WriteLine($"Ennyi idősen halt meg: {nev}: {idos}");
+            ev = 0;
+            szam1 = int.TryParse(ev, out szam);
+            if (szam1)
+            {
+                int idos = halal - ev;
+                Console.WriteLine($"Ennyi idősen halt meg: {nev}: {idos}");
+            }
+            
 
             Console.WriteLine("Kérem az országot: ");
             string orszag=Convert.ToString(Console.ReadLine());
