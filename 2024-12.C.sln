@@ -37,7 +37,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "doga 12.04", "doga 12.04\do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{DD4342D1-B04B-495F-A373-000E2A941C84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KivetelOsztaly", "KivetelOsztaly\KivetelOsztaly.csproj", "{154977EB-EAD5-45F5-A504-AF4278A0D447}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kockak", "KivetelOsztaly\kockak.csproj", "{154977EB-EAD5-45F5-A504-AF4278A0D447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autolista", "autolista\autolista.csproj", "{2F930103-258C-4DD5-9309-B800CBD2E594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jarmulista", "jarmulista\jarmulista.csproj", "{C120B89E-377C-42A4-BFD9-F39358EF1E33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{154977EB-EAD5-45F5-A504-AF4278A0D447}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{154977EB-EAD5-45F5-A504-AF4278A0D447}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{154977EB-EAD5-45F5-A504-AF4278A0D447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F930103-258C-4DD5-9309-B800CBD2E594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F930103-258C-4DD5-9309-B800CBD2E594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F930103-258C-4DD5-9309-B800CBD2E594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F930103-258C-4DD5-9309-B800CBD2E594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C120B89E-377C-42A4-BFD9-F39358EF1E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C120B89E-377C-42A4-BFD9-F39358EF1E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C120B89E-377C-42A4-BFD9-F39358EF1E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C120B89E-377C-42A4-BFD9-F39358EF1E33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
