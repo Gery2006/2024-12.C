@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autolista", "autolista\auto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jarmulista", "jarmulista\jarmulista.csproj", "{C120B89E-377C-42A4-BFD9-F39358EF1E33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Számonkérés", "Számonkérés\Számonkérés.csproj", "{880B2397-CDCD-47A4-80D2-20CF173EECCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poliform_OOP", "Poliform_OOP\Poliform_OOP.csproj", "{8913B126-AC2C-489C-866E-23F53E63829A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{C120B89E-377C-42A4-BFD9-F39358EF1E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C120B89E-377C-42A4-BFD9-F39358EF1E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C120B89E-377C-42A4-BFD9-F39358EF1E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880B2397-CDCD-47A4-80D2-20CF173EECCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880B2397-CDCD-47A4-80D2-20CF173EECCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880B2397-CDCD-47A4-80D2-20CF173EECCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880B2397-CDCD-47A4-80D2-20CF173EECCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8913B126-AC2C-489C-866E-23F53E63829A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8913B126-AC2C-489C-866E-23F53E63829A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8913B126-AC2C-489C-866E-23F53E63829A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8913B126-AC2C-489C-866E-23F53E63829A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
