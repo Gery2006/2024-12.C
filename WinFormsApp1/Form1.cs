@@ -81,7 +81,6 @@ namespace WinFormsApp1
             button1.Text = "Kattints rám!";
 
         }
-
     }
 
 }

@@ -47,9 +47,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Számonkérés", "Számonk�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poliform_OOP", "Poliform_OOP\Poliform_OOP.csproj", "{8913B126-AC2C-489C-866E-23F53E63829A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{2427C0CC-4C38-45BB-9937-03641218AD14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{2427C0CC-4C38-45BB-9937-03641218AD14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{774AD754-9D9A-4E96-9764-810522DC2EBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{774AD754-9D9A-4E96-9764-810522DC2EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.19", "02.19\02.19.csproj", "{F4189213-E259-4E0F-8660-1DD35AA20326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{E33E57B4-D515-4225-AD9F-5D6FE882E8CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +157,14 @@ Global
 		{774AD754-9D9A-4E96-9764-810522DC2EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{774AD754-9D9A-4E96-9764-810522DC2EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{774AD754-9D9A-4E96-9764-810522DC2EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4189213-E259-4E0F-8660-1DD35AA20326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4189213-E259-4E0F-8660-1DD35AA20326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4189213-E259-4E0F-8660-1DD35AA20326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4189213-E259-4E0F-8660-1DD35AA20326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33E57B4-D515-4225-AD9F-5D6FE882E8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33E57B4-D515-4225-AD9F-5D6FE882E8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33E57B4-D515-4225-AD9F-5D6FE882E8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33E57B4-D515-4225-AD9F-5D6FE882E8CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
