@@ -1,6 +1,6 @@
-namespace WinFormsApp1
+namespace kepek
 {
-    internal static class Program
+    static class Program
     {
         /// <summary>
         ///  The main entry point for the application.
