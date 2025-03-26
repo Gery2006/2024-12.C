@@ -59,11 +59,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.4.FormMozg", "..\..\..\D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp4", "ConsoleApp4\ConsoleApp4.csproj", "{C558393B-B3E4-404B-86E7-9C0E1346D538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kepek", "kepek\kepek.csproj", "{210D07DE-6D43-4C78-90BF-8B227111E6CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kepek", "kepek\kepek.csproj", "{210D07DE-6D43-4C78-90BF-8B227111E6CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "halmazka", "halmazka\halmazka.csproj", "{6792D276-B1A5-46B1-A5E2-ED725BF1C46A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "halmazka", "halmazka\halmazka.csproj", "{6792D276-B1A5-46B1-A5E2-ED725BF1C46A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rakos", "rakos\rakos.csproj", "{785532C8-FD4C-4343-A03D-EC41C1E0398D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rakos", "rakos\rakos.csproj", "{785532C8-FD4C-4343-A03D-EC41C1E0398D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "doga03_12", "doga03_12\doga03_12.csproj", "{508A90E0-0A51-428C-B343-0B17AA7F1D22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySql users", "MySql users\MySql users.csproj", "{FA4AE460-40BE-45E5-880D-6CFCB8AF6A0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +199,14 @@ Global
 		{785532C8-FD4C-4343-A03D-EC41C1E0398D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{785532C8-FD4C-4343-A03D-EC41C1E0398D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{785532C8-FD4C-4343-A03D-EC41C1E0398D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508A90E0-0A51-428C-B343-0B17AA7F1D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508A90E0-0A51-428C-B343-0B17AA7F1D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508A90E0-0A51-428C-B343-0B17AA7F1D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508A90E0-0A51-428C-B343-0B17AA7F1D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4AE460-40BE-45E5-880D-6CFCB8AF6A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4AE460-40BE-45E5-880D-6CFCB8AF6A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4AE460-40BE-45E5-880D-6CFCB8AF6A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4AE460-40BE-45E5-880D-6CFCB8AF6A0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
